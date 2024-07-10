@@ -4,7 +4,7 @@
 
     1) Scrapped the Goosecreek Site to create dataset using Scrappy Framework. Automated scrapping and storing data in GCS using     
        docker and Cloud Run for automating the process. 
-    2) Used Tearraform to create infrastructure in GCP for data cleaning (using Dataproc) and storing (GCS, BigQuery). Thereafter   
+    2) Used Tearraform to create infrastructure in GCP for data cleaning (using Dataproc and PySpark) and storing (GCS, BigQuery). Thereafter   
        created table for the cleaned dataset.
     3) Leveraged the BigQuery Table as a datasource for Looker Studio to create dashbord.
    
